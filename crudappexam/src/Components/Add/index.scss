@@ -1,0 +1,56 @@
+.form {
+  display: flex;
+  justify-content: center;
+
+  div {
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-bottom: 1px solid grey;
+    margin: 1rem;
+    border-radius: 10px;
+    .from_header {
+      font-weight: bold;
+      padding: 1rem 0 1rem 1rem;
+      border-radius: 0;
+      width: auto;
+      span {
+        color: blue;
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem;
+      input {
+        margin: 1rem 0;
+        height: 1.5rem;
+        border-radius: 10px;
+        border: 0;
+        background-color: rgb(234, 233, 233);
+        padding-left: 1rem;
+      }
+      .sub {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+        padding: 2rem 0;
+        border-radius: 0;
+
+        input {
+          margin: 1rem;
+          width: 10rem;
+          height: 1.5rem;
+        }
+      }
+      .submit {
+        width: 7rem;
+        padding: 0.5rem 2rem;
+        height: auto;
+        background-color: rgb(47, 132, 252);
+        color: white;
+      }
+    }
+  }
+}
