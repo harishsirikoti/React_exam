@@ -7,7 +7,6 @@ import axios from "axios";
 
 const View = () => {
   const [data, setdata] = useState(Data);
-
   const getData = async () => {
     try {
       const url = "http://localhost:5000/students";
@@ -115,9 +114,6 @@ const View = () => {
                   </td>
                   <td>
                     <MdDelete onClick={() => deleteRequest(s.id)} />
-                  </td>
-                  <td>
-                    <Link to={`/Add/${s.id}`}>Edit</Link>
                   </td>
                 </tr>
               );

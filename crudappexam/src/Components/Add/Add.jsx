@@ -21,7 +21,7 @@ const Add = () => {
     console.log(newData)
     try {
         const result = await axios.post(` http://localhost:5000/students`, newData);
-        setdata(result.students);
+
     }
     catch (error) {
         console.log(error)
@@ -52,7 +52,7 @@ const Add = () => {
           Create <span>Profile</span>
         </div>
         <form
-          onSubmit={handleSubmit(() => {
+          onSubmit={handleSubmit((data) => {
             createForm();
           })}
         >
