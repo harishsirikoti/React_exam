@@ -4,13 +4,14 @@
 
   div {
     width: 60%;
-    background-color: rgb(255, 255, 255);
+    background: #f4f4f6 0% 0% no-repeat padding-box;
     border-radius: 10px;
     border-bottom: 1px solid grey;
     margin: 1rem;
     border-radius: 10px;
     .from_header {
       font-weight: bold;
+      font-family: Microsoft Sans Serif;
       padding: 1rem 0 1rem 1rem;
       border-radius: 0;
       width: auto;
@@ -30,18 +31,32 @@
         background-color: rgb(234, 233, 233);
         padding-left: 1rem;
       }
+      p {
+        color: red;
+        margin: 0 1rem 1rem 1rem;
+        padding: 0;
+      }
       .sub {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         margin: 0;
-        padding: 2rem 0;
+        padding: 0rem 0;
         border-radius: 0;
-
-        input {
-          margin: 1rem;
-          width: 10rem;
-          height: 1.5rem;
+        .input {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          border: 0;
+          width: 25%;
+          label {
+            margin: 1rem 0 0 1.5rem;
+          }
+          input {
+            margin: 1rem;
+            width: 70%;
+            height: 1.5rem;
+          }
         }
       }
       .submit {

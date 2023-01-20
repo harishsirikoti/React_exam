@@ -1,0 +1,51 @@
+{
+  "students": [
+    {
+      "id": 0,
+      "Name": "Rini",
+      "Roll_Number": 1,
+      "English": 68,
+      "Science": 79,
+      "Telugu": 50,
+      "Hindi": 40,
+      "Social": 70,
+      "Extra_activities": 90,
+      "Total_marks": {}
+    },
+    {
+      "id": 1,
+      "Name": "Fayaz",
+      "Roll_Number": 2,
+      "English": 90,
+      "Science": 87,
+      "Telugu": 98,
+      "Hindi": 40,
+      "Social": 89,
+      "Extra_activities": 90,
+      "Total_marks": {}
+    },
+    {
+      "id": 2,
+      "Name": "Harish",
+      "Roll_Number": 3,
+      "English": 90,
+      "Science": 87,
+      "Telugu": 98,
+      "Hindi": 40,
+      "Social": 89,
+      "Extra_activities": 90,
+      "Total_marks": {}
+    },
+    {
+      "id": 0.5064235781735131,
+      "Name": "M Rani",
+      "Roll_Number": "7",
+      "English": "89",
+      "Telugu": "77",
+      "Hindi": "86",
+      "Science": "96",
+      "Social": "96",
+      "Extra_activities": "89"
+    }
+  ]
+}
